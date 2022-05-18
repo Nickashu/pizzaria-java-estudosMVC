@@ -1,8 +1,11 @@
 # Pizzaria Muito Massa
-O projeto feito para estudo consiste em um sistema para gerenciar os pedidos dos clientes da Pizzaria Muito Massa, uma pizzaria fictícia localizada no Rio de Janeiro.
-A pizzaria oferece opções de pizzas com diferentes sabores, preços e ingredientes, além de bebidas de diferentes tipos e preços. Nesta pizzaria, apenas clientes maiores de idade podem fazer um pedido. No pedido, teremos o preço total (pizzas e bebidas), a data na qual ele foi feito, quem fez o pedido e o endereço do cliente que fez o pedido. Ao fazer o pedido, o cliente escolherá o tamanho da pizza pedida (Pequena – 20cm, Média – 40cm ou Grande – 60cm) e o tamanho da bebida pedida (Pequena - Lata/Garrafa de 500ml, Média – Garrafa de 1L, Grande – Garrafa de 2L).
+<strong>-Descrição:</strong>
 
-Para a criação das tabelas necessárias para o banco de dados:
+O projeto feito para estudo consiste em um sistema para gerenciar os pedidos dos clientes da Pizzaria Muito Massa, uma pizzaria fictícia localizada no Rio de Janeiro.
+A pizzaria oferece opções de pizzas com diferentes sabores, preços e ingredientes, além de bebidas de diferentes tipos e preços. Nesta pizzaria, apenas clientes maiores de idade podem fazer um pedido. No pedido, teremos o preço total (pizzas e bebidas), a data na qual ele foi feito, quem fez o pedido e o endereço do cliente que fez o pedido. Ao fazer o pedido, o cliente escolherá o tamanho da pizza pedida (Pequena – 20cm, Média – 40cm ou Grande – 60cm) e o tamanho da bebida pedida (Pequena - Lata/Garrafa de 500ml, Média – Garrafa de 1L, Grande – Garrafa de 2L).<br><br>
+
+<strong>-Para a criação das tabelas necessárias para o banco de dados:</strong>
+
 CREATE TABLE CLIENTE(
 idCliente int auto_increment not null,
 nome varchar(40),
